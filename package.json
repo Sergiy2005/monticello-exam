@@ -1,0 +1,22 @@
+{
+  "name": "fdn",
+  "version": "1.0.0",
+  "description": "test scss project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch --recursive --output css --source-map true --source-map-contents scss"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexcss/starter/issues"
+  },
+  "homepage": "https://github.com/alexcss/starter#readme",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "jsdom": "^15.1.1",
+    "node-sass": "^4.12.0",
+    "slick-carousel": "^1.8.1"
+  }
+}
