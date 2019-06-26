@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Monticello</title>
+	<title>Laibas</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
@@ -11,8 +11,9 @@
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/layout.css" />
 	<link rel="stylesheet" href="css/styles.css" />
-	<link rel="stylesheet" href="libs/font-awesome/css/all.css"/>
-
+	<link rel="stylesheet" href="fonts/styles.css"/>
+	<link rel="stylesheet" href="fonts/css/all.min.css"/>
+	<link rel="stylesheet" href="fonts/EnglishwithIndianRupee.woff"/>
 
 	<!--[if lt IE 9]>
 
@@ -20,241 +21,331 @@
 </head>
 <body>
 <header class="ba-header">
-	<div class="ba-container">
+	<nav>
 		<div class="logo">
-			<a href="#"><img src="img/logo.png" alt="logo"></a>
+			<a href="#">Laibas</a>
 		</div>
-		<nav>
-			<a href="#heroId"><div class="menuItem"><div class="bullet"></div><p>about us</p></div></a>
-			<a href="#whatWeDoId"><div class="menuItem"><div class="bullet"></div><p>projects</p></div></a>
-			<a href="#latestNewsId"><div class="menuItem"><div class="bullet"></div><p>news</p></div></a>
-			<a href="#mapId"><div class="menuItem"><div class="bullet"></div><p>contact</p></div></a>
-		</nav>
-		<div class="socialNetworks">
-				<a href="#"><div class="sNetItem"><i class="fab fa-facebook-f"></i></div></a>
-				<a href="#"><div class="sNetItem"><i class="fab fa-twitter"></i></div></a>
-				<a href="#"><div class="sNetItem"><i class="fab fa-instagram"></i></div></a>
+		<div class="menu">
+			<ul>
+				<li><a href="#">Shop</a></li>
+				<li><div class="dot"></div></li>
+				<li><a href="#dishesId">Recipies</a></li>
+				<li><div class="dot"></div></li>
+				<li><a href="#">News</a></li>
+				<li><div class="dot"></div></li>
+				<li><a href="#reservations-aboutId">About Laiba's</a></li>
+				<li><div class="dot"></div></li>
+				<li><a href="#locationsId">Contact</a></li>
+			</ul>
 		</div>
-	</div>
+	</nav>
 </header>
 <main role="main" >
 
 		<section class="hero" id="heroId">
+			<h1>Laibas</h1>
+			<h3>restaurant & bar</h3>
+			</div>
+		</section>
+		<section class="reservations-about" id="reservations-aboutId">
 			<div class="ba-container">
-				<div class="my-first-slider">
-					<div class="slide-one">
-						<h1>simple & mordern</h1>
-						<h4>we make the world's beautiful every day</h4>
-						<a href="#whatWeDoId"><div class="arrow"></div></a>
+                <div class="reservations-about-top">
+                    <div class="reservations">
+                        <div class="reservations-info">
+                            <h4>Reservations</h4>
+                            <p>Call us now to book a tale in our<br>
+                                restaurant. Calls must be in the same<br>
+                                days as the reservation</p>
+                            <button>book a table</button>
+                        </div>
+                        <div class="reservations-photo"></div>
+                    </div>
+                    <div class="about">
+                        <div class="about-photo"></div>
+                        <div class="about-info">
+                            <h4>About</h4>
+                            <p>  Laibs’s Restaurant combines an inspired menu with a casually sophisticated setting in<br>
+                                a historic downtown Excelsior main street building. Coalition is the creation of Chef Eli<br>
+                                Wollenzien and reflects his passion for cooking with a diverse and inspired menu.</p>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</section>
+		<section class="reservations-about-bottom"></section>
+		<section class="our-specialities">
+            <div class="specialities-photo">
+                <h2>Our<br>Specialities</h2>
+            </div>
+        </section>
+		<section class="dishes" id="dishesId">
+			<div class="ba-container">
+				<div class="first-row">
+					<div class="dish lazagna">
+						<div class="dish-info">
+							<h5>lasagna</h5>
+							<p>Lorem Ipsum is simply<br>
+								dummy text of the printing<br>
+								and typesetting industry.</p>
+							<h6>FROM <span>`</span>200</h6>
+						</div>
+						<div class="lazagna-photo"></div>
 					</div>
-					<div class="slide-two">
-						<h1>Lorem ipsum dolor.</h1>
-						<h4>Lorem ipsum dolor sit amet, consectetur.</h4>
-						<a href="#whatWeDoId"><div class="arrow"></div></a>
+					<div class="dish pizza">
+						<div class="dish-info">
+							<h5>pizza</h5>
+							<p>Lorem Ipsum is simply<br>
+								dummy text of the printing<br>
+								and typesetting industry.</p>
+							<h6>FROM <span>`</span>399</h6>
+						</div>
+						<div class="pizza-photo"></div>
 					</div>
-					<div class="slide-three">
-						<h1>Lorem ipsum dolor.</h1>
-						<h4>Lorem ipsum dolor sit amet, adipisicing.</h4>
-						<a href="#whatWeDoId"><div class="arrow"></div></a>
+				</div>
+				<div class="second-row">
+					<div class="dish idlis">
+						<div class="idlis-photo"></div>
+						<div class="dish-info">
+							<h5>idlis</h5>
+							<p>Lorem Ipsum is simply<br>
+								dummy text of the printing<br>
+								and typesetting industry.</p>
+							<h6>FROM <span>`</span>99</h6>
+						</div>
 					</div>
-					<div class="slide-one">
-						<h1>simple & mordern</h1>
-						<h4>we make the world's beautiful every day</h4>
-						<a href="#whatWeDoId"><div class="arrow"></div></a>
-					</div>
-					<div class="slide-two">
-						<h1>Lorem ipsum dolor.</h1>
-						<h4>Lorem ipsum dolor sit amet, consectetur.</h4>
-						<a href="#whatWeDoId"><div class="arrow"></div></a>
+					<div class="dish burger">
+						<div class="burger-photo"></div>
+						<div class="dish-info">
+							<h5>burger</h5>
+							<p>Lorem Ipsum is simply<br>
+								dummy text of the printing<br>
+								and typesetting industry.</p>
+							<h6>FROM <span>`</span>129</h6>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="whatWeDo" id="whatWeDoId">
+		<section class="dishes-bottom"></section>
+		<section class="barbeque">
+			<div class="barbeque-photo"></div>
+		</section>
+		<section class="menu" id="menuId">
 			<div class="ba-container">
-				<div class="line1"></div>
-				<h1>what we do</h1>
-				<div class="projectOne">
-					<div class="tradeCenterPic">
-						<div class="tradeCenterPicBG"></div>
-						<div class="tradeCenterPicPhoto"></div>
+				<h2>Menu</h2>
+				<div class="line"></div>
+				<h5 class="fanda">food and appetizers</h5>
+				<div class="food-appetizers-info">
+				<div class="fa-col-one">
+					<div class="menu-item">
+						<div class="description">
+							<h6>pizza mexicana</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
+								elit. Nam vehicula massa quis _____________________</p>
+						</div>
+						<div class="price"><span>`</span>199</div>
 					</div>
-					<div class="tradeCenterInfo">
-						<h3>One World</h3>
-						<h2>Trade Center</h2>
-						<p>Increasing prosperity in our lives can be accomplished by having the right frame of mind.
-							The truth is, our thoughts are very powerful.</p>
-						<button>More Details</button>
-						<div class="tradeCenterLocation"></div>
+					<div class="menu-item">
+						<div class="description">
+							<h6>tortilla chips</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
+								elit. Nam vehicula massa quis _____________________</p>
+						</div>
+						<div class="price"><span>`</span>129</div>
+					</div>
+					<div class="menu-item">
+						<div class="description">
+							<h6>guacamole mexicana</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
+								elit. Nam vehicula massa quis _____________________</p>
+						</div>
+						<div class="price"><span>`</span>159</div>
 					</div>
 				</div>
-				<div class="projectTwo">
-					<div class="commCenterInfo">
-						<h3>International</h3>
-						<h2>Commerce Centre</h2>
-						<p>Successful businesses have many things in common, today we’ll look at the big ‘R’
-							of recognition and how a digital advertising network may help.</p>
-						<button>More Details</button>
-						<div class="commCenterLocation"></div>
+				<div class="fa-col-one">
+					<div class="menu-item">
+						<div class="description">
+							<h6>quesadilla</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
+								elit. Nam vehicula massa quis _____________________</p>
+						</div>
+						<div class="price"><span>`</span>999</div>
 					</div>
-					<div class="commCenterPic">
-						<div class="commCenterPicBG"></div>
-						<div class="commCenterPicPhoto"></div>
+					<div class="menu-item">
+						<div class="description">
+							<h6>roasted zucchini</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
+								elit. Nam vehicula massa quis _____________________</p>
+						</div>
+						<div class="price"><span>`</span>729</div>
 					</div>
+					<div class="menu-item">
+						<div class="description">
+							<h6>sauteed green peppers</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
+								elit. Nam vehicula massa quis _____________________</p>
+						</div>
+						<div class="price"><span>`</span>439</div>
+					</div>
+				</div>
+				<div class="abs item1"></div>
+				<div class="abs item2"></div>
+				<div class="abs item3"></div>
+				<div class="abs item4"></div>
+			</div>
+				<h5 class="deserts">deserts</h5>
+				<div class="desert-info">
+					<div class="fa-col-one">
+						<div class="menu-item">
+							<div class="description">
+								<h6>CHOCOLATE CHILLI CAKE</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
+									elit. Nam vehicula massa quis _____________________</p>
+							</div>
+							<div class="price"><span>`</span>429</div>
+						</div>
+						<div class="menu-item">
+							<div class="description">
+								<h6>FLAN</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
+									elit. Nam vehicula massa quis _____________________</p>
+							</div>
+							<div class="price"><span>`</span>299</div>
+						</div>
+						<div class="menu-item">
+							<div class="description">
+								<h6>CHURROS (eggless)</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
+									elit. Nam vehicula massa quis _____________________</p>
+							</div>
+							<div class="price"><span>`</span>929</div>
+						</div>
+					</div>
+					<div class="fa-col-one">
+						<div class="menu-item">
+							<div class="description">
+								<h6>ICE CREAM (eggless)</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
+									elit. Nam vehicula massa quis _____________________</p>
+							</div>
+							<div class="price"><span>`</span>190</div>
+						</div>
+						<div class="menu-item">
+							<div class="description">
+								<h6>ICED CAFE CON LECHE</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
+									elit. Nam vehicula massa quis _____________________</p>
+							</div>
+							<div class="price"><span>`</span>149</div>
+						</div>
+						<div class="menu-item">
+							<div class="description">
+								<h6>PIZZA MEXICANA</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
+									elit. Nam vehicula massa quis _____________________</p>
+							</div>
+							<div class="price"><span>`</span>109</div>
+						</div>
+					</div>
+					<div class="abs item5"></div>
+					<div class="abs item6"></div>
+					<div class="abs item7"></div>
+				</div>
+			</div>
+		</section>
+		<section class="locations" id="locationsId">
+			<div class="ba-container">
+				<div class="location-text">
+					<h2>Locations</h2>
+					<div class="line"></div>
+					<div class="locations-info">
+						<div class="location-one">
+							<div class="location-address">
+								<div class="location-city">
+									<span><i class="fa fa-map-marker-alt"></i></span><h5>Indiranagar</h5>
+								</div>
+								<p>218, Double Rd,<br>
+									Near BDA Complex, Indiranagar</p>
+								<div class="location-city">
+									<span><i class="fa fa-phone-alt"></i></span><h5>9402393493</h5>
+								</div>
 
+							</div>
+							<div class="location-photo-one"></div>
+						</div>
+						<div class="location-one">
+							<div class="location-address">
+								<div class="location-city">
+									<span><i class="fa fa-map-marker-alt"></i></span><h5>Koramangala</h5>
+								</div>
+								<p>911, 5th Cross,<br>
+									Near TDA Complex, Koramangala</p>
+								<div class="location-city">
+									<span><i class="fa fa-phone-alt"></i></span><h5>9402393493</h5>
+								</div>
 
-				</div>
-			</div>
-		</section>
-		<section class="latestNews" id="latestNewsId">
-			<div class="ba-container">
-				<div class="line2"></div>
-				<h1>latest news</h1>
-				<div class="my-slider">
-					<div class="slideCard-one">
-						<div class="slidePic"></div>
-						<h3>See The Unmatched<br> Beauty Of The Great.</h3>
-						<h5>Free directories: directories are perfect<br>for customers that are...searching for</h5>
-						<div class="author">
-							<div class="authorPhoto"></div>
-							<div class="authorInfo">
-								<p class="name">isaac dunn</p>
-								<p class="date">09 Feb 2017</p>
 							</div>
-						</div>
-					</div>
-					<div class="slideCard-two">
-						<div class="slidePic"></div>
-						<h3>Effective Advertising<br>Pointers.</h3>
-						<h5>Having a home based business is a <br> wonderful asset to your life... </h5>
-						<div class="author">
-							<div class="authorPhoto"></div>
-							<div class="authorInfo">
-								<p class="name">dominic freeman</p>
-								<p class="date">24 Apr 2017</p>
-							</div>
-						</div>
-					</div>
-					<div class="slideCard-three">
-						<div class="slidePic"></div>
-						<h3>Hypnotize Yourself<br>Into The Ghost.</h3>
-						<h5>There are many things that are <br>important to catalog design....</h5>
-						<div class="author">
-							<div class="authorPhoto"></div>
-							<div class="authorInfo">
-								<p class="name">alice ward</p>
-								<p class="date">30 Dec 2017</p>
-							</div>
-						</div>
-					</div>
-					<div class="slideCard-one">
-						<div class="slidePic"></div>
-						<h3>See The Unmatched<br> Beauty Of The Great.</h3>
-						<h5>Free directories: directories are<br> perfect for customers that are... </h5>
-						<div class="author">
-							<div class="authorPhoto"></div>
-							<div class="authorInfo">
-								<p class="name">isaac dunn</p>
-								<p class="date">09 Feb 2017</p>
-							</div>
-						</div>
-					</div>
-					<div class="slideCard-two">
-						<div class="slidePic"></div>
-						<h3>Effective Advertising<br>Pointers.</h3>
-						<h5>Having a home based business is a <br> wonderful asset to your life... </h5>
-						<div class="author">
-							<div class="authorPhoto"></div>
-							<div class="authorInfo">
-								<p class="name">dominic freeman</p>
-								<p class="date">24 Apr 2017</p>
-							</div>
-						</div>
-					</div>
-					<div class="slideCard-three">
-						<div class="slidePic"></div>
-						<h3>Hypnotize Yourself<br>Into The Ghost.</h3>
-						<h5>There are many things that are <br>important to catalog design....</h5>
-						<div class="author">
-							<div class="authorPhoto"></div>
-							<div class="authorInfo">
-								<p class="name">alice ward</p>
-								<p class="date">30 Dec 2017</p>
-							</div>
+							<div class="location-photo-two"></div>
 						</div>
 					</div>
 				</div>
 
-			</div>
-		</section>
-		<section class="gallery">
-			<div class="ba-container">
-				<div class="line3"></div>
-				<h1>gallery</h1>
-				<div class="galleryPic">
-					<div class="galleryPic1"></div>
-					<div class="galleryPic2">
-						<div class="galleryPic2-1">
-							<div class="galleryPic2-1-1"></div>
-							<div class="galleryPic2-1-2"></div>
-						</div>
-						<div class="galleryPic2-2">
-							<div class="galleryPic2-2-1"></div>
-							<div class="galleryPic2-2-2"></div>
-						</div>
-					</div>
+				<div class="lb-inner">
+					<h2>JOIN OUR EAT WELL, BE WELL<br>
+						CULTURE</h2>
+					<form class="submit-form" action="handler.php">
+						<input type="text" placeholder="Your email">
+						<button type="submit">sign me up</button>
+					</form>
 				</div>
-				<button>see more</button>
-			</div>
-		</section>
-		<section class="map" id="mapId">
-			<div class="mapouter">
-				<div class="gmap_canvas">
-					<iframe width="1600" height="700" id="gmap_canvas"
-							src="https://maps.google.com/maps?q=brooklyn&t=&z=13&ie=UTF8&iwloc=&output=embed"
-							frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-					</iframe>
-					<a href="https://www.pureblack.de"></a>
-				</div><style>.mapouter{position:relative;text-align:right;
-				height:700px;width:1600px;}.gmap_canvas {overflow:hidden;background:none!important;height:700px;width:1600px;}</style>
+
 			</div>
 		</section>
 </main>
-<footer class="ba-footer">
-	<div class="footer-container">
-		<div class="getInTouch">
-			<div class="line4"></div>
-			<h1>get in touch</h1>
-			<div class="getInTouchBlock">
-				<div class="getInTouchInfo"></div>
-				<form class="getInTouchContact">
-					<input class="yourName" type="text" placeholder="Your name"><br>
-					<input class="email" type="text" placeholder="Email"><br>
-					<div class="submitAlign"><input class="submit" type="submit" value="submit"></div>
-				</form>
+<footer>
+		<a href="#heroId" class="arrow-link">
+			<div class="scroll-button">
+				<div class="arrow-up"></div>
+			</div></a>
+		<div class="upper-footer">
+			<div class="ba-container">
+				<div class="social-networks">
+					<ul>
+						<li><div class="snet"><i class="fab fa-facebook-f"></i></div></li>
+						<li><div class="snet"><i class="fab fa-instagram"></i></div></li>
+						<li><div class="snet"><i class="fab fa-pinterest-p"></i></div></li>
+						<li><div class="snet"><i class="fab fa-twitter"></i></div></li>
+					</ul>
+				</div>
+				<div class="page-navigation">
+					<ul>
+						<li><a href="#heroId">HOME</a></li>
+						<li><a href="#menuId">MENU</a></li>
+						<li><a href="#">STORY</a></li>
+						<li><a href="#reservations-aboutId">ABOUT</a></li>
+						<li><a href="#locationsId">LOCATIONS</a></li>
+					</ul>
+				</div>
+				<div class="lower-navigation">
+					<ul>
+						<li><a href="#locationsId">Contact</a></li>
+						<li><div class="separator"></div></li>
+						<li><a href="#">Blog</a></li>
+						<li><div class="separator"></div></li>
+						<li><a href="#dishesId">Catering</a></li>
+						<li><div class="separator"></div></li>
+						<li><a href="#">Delivery</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
-		<div class="footerContent1">
-				<div class="logo">
-					<a href="#"><img src="img/logo.png" alt="logo"></a>
-				</div>
-
-				<div class="socialNetworks1">
-					<a href="#"><div class="sNetItem1"><i class="fab fa-facebook-f"></i></div></a>
-					<a href="#"><div class="sNetItem1"><i class="fab fa-twitter"></i></div></a>
-					<a href="#"><div class="sNetItem1"><i class="fab fa-instagram"></i></div></a>
-				</div>
-
-		</div>
-		<div class="copyrightsBlock">
-			<div class="copyrights">
-				<h4>Copyrights © 2017 Monticello </h4>
-				<div class="line5"></div>
-				<h4>Made with &hearts; by Ga Huy </h4>
+		<div class="lower-footer">
+			<div class="ba-container">
+				<h5>HEALTHY MEXICAN FAST-CASUAL FOOD, CRAFTED WITH <span>♥</span> in india</h5>
+				<p>© ALL RIGHTS RESERVED</p>
 			</div>
 		</div>
 	</div>
-
 </footer>
 <script src="js/jquery.min.js"></script>
 <script type="text/javascript">
