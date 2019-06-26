@@ -407,14 +407,3 @@ img {
         width: 80%;
     }
 }
-@media (min-width: 1400px) {
-    .ba-container,.ba-container-center{
-        width: 1360px;
-    }
-}
-
-@media (min-width: 1920px) {
-    .ba-container,.ba-container-center{
-        width: 1650px;
-    }
-}
