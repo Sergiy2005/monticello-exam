@@ -15,7 +15,7 @@
   "homepage": "https://github.com/alexcss/starter#readme",
   "dependencies": {
     "jquery": "^3.4.1",
-    "jsdom": "^15.1.1",
+    "jsdom": "^16.5.0",
     "node-sass": "^4.12.0",
     "slick-carousel": "^1.8.1"
   }
